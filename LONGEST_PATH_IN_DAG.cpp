@@ -61,8 +61,8 @@ public:
 		for (int i = 1; i <= no_egde; i++)
 		{
 			cout << "Enter the source:"; cin >> S;
-			cout << "Enter the destination:"; cin >> D;//Edge value input   
-			cout << "Enter weight of edge from path " << S << " to " << D << " :"; cin >> weight;
+			cout << "Enter the destination:"; cin >> D;   
+			cout << "Enter weight of edge from path " << S << " to " << D << " :"; cin >> weight;//Edge value input
 			egdevalue[S][D] = weight;
 		}
 
