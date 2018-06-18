@@ -62,7 +62,7 @@ public:
 		{
 			cout << "Enter the source:"; cin >> S;
 			cout << "Enter the destination:"; cin >> D;   
-			cout << "Enter weight of edge from path " << S << " to " << D << " :"; cin >> weight;//Edge value input
+			cout << "Enter weight of edge from path " << S << " to " << D << " :"; cin >> weight;//Edge weight input
 			egdevalue[S][D] = weight;
 		}
 
